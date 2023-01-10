@@ -24,6 +24,6 @@ public partial class App : Application
             }
         }
         Environment.CurrentDirectory = FileSystem.AppDataDirectory;
-        //TerrariaApi.Server.Program.Main(new string[0]);
+        TerrariaApi.Server.Program.Main(new string[0]);
     }
 }
